@@ -10,7 +10,7 @@ const Header = () => {
     <div>
       <div class="navbar bg-base-100">
         <div>
-          <a class="normal-case text-xl p-1 w-48">Doctors Portal</a>
+          <a class="normal-case text-2xl p-1 w-48">Doctors Portal</a>
         </div>
         <div class="navbar-end">
           <div class="dropdown dropdown-end">
