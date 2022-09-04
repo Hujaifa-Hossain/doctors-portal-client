@@ -1,4 +1,11 @@
-.banner{
+.home-banner{
   background-image: url('/src/assets/images/bg.png');
   background-repeat: no-repeat;
+}
+.appoinment-banner{
+  background-image: url('/src/assets/images/appointment.png');
+  background-repeat: no-repeat;
+}
+.footer-bg{
+  background-image: url('/src/assets/images/footer.png');
 }
