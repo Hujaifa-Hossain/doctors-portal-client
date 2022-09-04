@@ -6,17 +6,17 @@ import ServiceCard from './ServiceCard';
 const Services = () => {
   const services = [
     {
-      title: 'Fluoride',
+      title: 'Fluoride Treatment',
       img: fluoride,
       description: 'If a dog chews shoes whose shoes does he choose?',
     },
     {
-      title: 'Cavity',
+      title: 'Cavity Filling',
       img: cavity,
       description: 'If a dog chews shoes whose shoes does he choose?',
     },
     {
-      title: 'Whitening',
+      title: 'Teeth Whitening',
       img: whitening,
       description: 'If a dog chews shoes whose shoes does he choose?',
     },
