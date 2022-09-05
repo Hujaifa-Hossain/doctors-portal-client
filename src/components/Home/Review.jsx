@@ -6,12 +6,12 @@ const Review = ({ review }) => {
     <div class="card shadow-xl">
       <div class="card-body">
 
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p>{view}</p>
 
         <div className='flex'>
           <div className="avatar mr-3">
             <div className="w-16 rounded-full ring ring-primary ring-offset-base-100">
-              <img src="https://placeimg.com/192/192/people" />
+              <img src={img} />
             </div>
           </div>
           <div class="">
