@@ -8,15 +8,12 @@ import NotFound from "./shared/NotFound";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="appoinment" element={<Appoinment />} />
         <Route path="*" element={<NotFound />} />
-        {/* <Route >
-          <NotFound />
-        </Route> */}
       </Routes>
       <Footer />
     </div>

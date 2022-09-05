@@ -7,8 +7,8 @@ const ContactForm = () => {
       <p className='text-white text-2xl my-3'>Stay connected with us</p>
       <input type="text" placeholder="Email address" className="input input-bordered input-md w-full max-w-xs my-3" />
       <input type="text" placeholder="Subject" className="input input-bordered input-md w-full max-w-xs my-3" />
-      <textarea className="textarea input-lg w-full max-w-xs my-3" placeholder="Your message"></textarea>
-      <button class="btn btn-primary bg-primary text-white bg-gradient-to-r from-secondary to-primary">Submit</button>
+      <textarea className="textarea input-xl w-full max-w-xs my-3" placeholder="Your message"></textarea>
+      <button className="btn btn-primary bg-primary text-white bg-gradient-to-r from-secondary to-primary">Submit</button>
     </div>
   );
 };
