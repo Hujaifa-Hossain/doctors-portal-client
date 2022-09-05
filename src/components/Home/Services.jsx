@@ -22,17 +22,17 @@ const Services = () => {
     },
   ]
   return (
-<div>
-<div className='text-center text-primary my-10'>
+    <section>
+      <div className='text-center text-primary my-10'>
         <p className=' text-1xl font-bold'>Our Services</p>
         <p className='text-neutral'>Services We Provide</p>
       </div>
       <div className='lg:flex'>
-      {services.map((service, index) => <ServiceCard key={index} service={service}/>)}
-    </div>
-</div>
+        {services.map((service, index) => <ServiceCard key={index} service={service} />)}
+      </div>
+    </section>
 
-    
+
   );
 };
 

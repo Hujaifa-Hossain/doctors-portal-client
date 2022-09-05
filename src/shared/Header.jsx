@@ -7,7 +7,7 @@ const Header = () => {
     <li className='m-1 p-0'><Link to='appoinment'>Appoinment</Link></li>
   </>
   return (
-    <div>
+    <nav>
       <div class="navbar bg-base-100">
         <div>
           <a class="normal-case text-2xl p-1 w-48">Doctors Portal</a>
@@ -30,7 +30,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
