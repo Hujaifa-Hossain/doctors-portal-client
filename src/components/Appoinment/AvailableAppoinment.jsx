@@ -5,9 +5,9 @@ import SingleAppoinment from './SingleAppoinment';
 const AvailableAppoinment = ({ date }) => {
   const appoinments = [
     {
-      _id: 1,
-      name: "Teeth Orthodontics",
-      slots: [
+      "_id": "1",
+      "name": "Teeth Orthodontics",
+      "slots": [
         '10:05 am - 11:30 am',
         '10:05 am - 11:30 am',
         '10:05 am - 11:30 am',
@@ -15,9 +15,9 @@ const AvailableAppoinment = ({ date }) => {
       ]
     },
     {
-      _id: 2,
-      name: "Teeth Orthodontics",
-      slots: [
+      "_id": "2",
+      "name": "Teeth Orthodontics",
+      "slots": [
         '10:05 am - 11:30 am',
         '10:05 am - 11:30 am',
         '10:05 am - 11:30 am',
@@ -25,9 +25,9 @@ const AvailableAppoinment = ({ date }) => {
       ]
     },
     {
-      _id: 3,
-      name: "Teeth Orthodontics",
-      slots: [
+      "_id": "3",
+      "name": "Teeth Orthodontics",
+      "slots": [
         
       ]
     },
